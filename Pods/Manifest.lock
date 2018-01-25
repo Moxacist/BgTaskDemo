@@ -1,0 +1,16 @@
+PODS:
+  - BaiduMapKit (3.3.1)
+
+DEPENDENCIES:
+  - BaiduMapKit (from `libraries/BaiduMapKit`)
+
+EXTERNAL SOURCES:
+  BaiduMapKit:
+    :path: libraries/BaiduMapKit
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 5807cfb29959ad859ef39484159d206073bd029b
+
+PODFILE CHECKSUM: 34605edfd48959483312407aa1919907c27e690f
+
+COCOAPODS: 1.3.1

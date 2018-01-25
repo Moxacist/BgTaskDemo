@@ -1,0 +1,1 @@
+../../../../../libraries/BaiduMapKit/BaiduMap_IOSSDK/BaiduMapAPI_Utils.framework/Headers/BMKOpenPoi.h

@@ -1,0 +1,42 @@
+{
+  "name": "BaiduMapKit",
+  "version": "3.3.1",
+  "summary": "BaiduMapKit.podspec For transfar ehuodi company 2.0",
+  "description": "It is a BaiduMapKit.podspec module used on iOS, which implement by Objective-C.",
+  "authors": "lhs",
+  "source": {
+    "git": "../libraries/BaiduMapKit"
+  },
+  "homepage": "www.baidu.com",
+  "license": "MIT",
+  "platforms": {
+    "ios": "6.0"
+  },
+  "ios": {
+    "compiler_flags": "-Wno-documentation"
+  },
+  "libraries": [
+    "stdc++.6",
+    "sqlite3.0"
+  ],
+  "frameworks": [
+    "CoreLocation",
+    "QuartzCore",
+    "OpenGLES",
+    "SystemConfiguration",
+    "CoreGraphics",
+    "Security",
+    "CoreTelephony"
+  ],
+  "vendored_frameworks": [
+    "BaiduMap_IOSSDK/BaiduMapAPI_Base.framework",
+    "BaiduMap_IOSSDK/BaiduMapAPI_Location.framework",
+    "BaiduMap_IOSSDK/BaiduMapAPI_Map.framework",
+    "BaiduMap_IOSSDK/BaiduMapAPI_Search.framework",
+    "BaiduMap_IOSSDK/BaiduMapAPI_Utils.framework"
+  ],
+  "vendored_libraries": "BaiduMap_IOSSDK/thirdlibs/*.a",
+  "resources": [
+    "BaiduMap_IOSSDK/BaiduMapAPI_Map.framework/Resources/mapapi.bundle"
+  ]
+}
